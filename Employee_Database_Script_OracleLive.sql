@@ -37,7 +37,7 @@ UNIQUE      (Pname));
 CREATE TABLE WORKS_ON
 ( Essn            CHAR(9)           NOT NULL,
   Pno             INT               NOT NULL,
-  Hours           DECIMAL(3,1)      NOT NULL,
+  Hours           DECIMAL(3,1),
 PRIMARY KEY (Essn, Pno));
 
 CREATE TABLE DEPENDENT
